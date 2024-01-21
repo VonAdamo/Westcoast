@@ -1,3 +1,19 @@
 body {
     background-color:burlywood;
 }
+
+main {
+    display: flex;
+}
+
+.course-list {
+    display: flex;
+    width: 80%;
+}
+
+.course-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}

@@ -4,98 +4,106 @@
     {
         "id": 1,
         "title": "JavaScript Beginner",
+        "courseImg": "",
         "courseId": 2401,
         "startDate": "1st August",
         "duration": "4 weeks",
         "shortDescription": "Get started in web development with our JavaScript Beginner course. Learn the basics of JavaScript for dynamic web pages and user interactions.",
         "longDescription": "Dive into the world of web development with our JavaScript Beginner course. Perfect for those new to programming, this course covers the fundamentals of JavaScript, teaching you how to manipulate the behavior of web pages, handle user interactions, and begin your journey into dynamic and interactive web development.",
         "studyStructure": "Distance",
-        "rating": "",
-        "teacher": ""
+        "rating": "4",
+        "teacher": "August Snillesson"
     },
     {
         "id": 2,
         "title": "JavaScript Advanced",
+        "courseImg": "",
         "courseId": 2402,
         "startDate": "1st September",
         "duration": "8 weeks",
         "shortDescription": "Elevate your JavaScript skills with our Advanced course. Explore complex concepts, asynchronous programming, and build sophisticated web applications.",
         "longDescription": "Elevate your JavaScript skills with our Advanced course. Explore complex concepts, asynchronous programming, and modern frameworks. Learn to build sophisticated web applications, optimize performance, and implement best practices. Whether you're a seasoned developer or advancing from our Beginner course, this program takes your JavaScript expertise to the next level.",
         "studyStructure": "On-site",
-        "rating": "",
-        "teacher": ""
+        "rating": "4",
+        "teacher": "August Snillesson"
     },
     {
         "id": 3,
         "title": "HTML/CSS Beginner",
+        "courseImg": "",
         "courseId": 2403,
         "startDate": "1st August",
         "duration": "4 weeks",
         "shortDescription": "Start your web development journey with our HTML/CSS Beginner course. Master structuring web content and styling for visually appealing pages.",
         "longDescription": "Start your web development journey with our HTML/CSS Beginner course. Master the basics of structuring web content with HTML and styling it using CSS. Gain hands-on experience creating visually appealing and responsive web pages. This course is your stepping stone into the exciting world of front-end development.",
         "studyStructure": "Distance",
-        "rating": "",
-        "teacher": ""
+        "rating": "3.5",
+        "teacher": "August Snillesson"
     },
     {
         "id": 4,
         "title": "HTML/CSS Advanced",
+        "courseImg": "",
         "courseId": 2404,
         "startDate": "1st September",
         "duration": "8 weeks",
         "shortDescription": "Build upon foundational skills with our HTML/CSS Advanced course. Delve into advanced styling techniques, responsive design, and modern web trends.",
         "longDescription": "Build upon your foundational skills with our HTML/CSS Advanced course. Delve into advanced styling techniques, responsive design, and cross-browser compatibility. Learn to create modern and user-friendly interfaces, and explore the latest trends in web design. Perfect for those looking to enhance their proficiency in front-end development.",
         "studyStructure": "On-site",
-        "rating": "",
-        "teacher": ""
+        "rating": "4.5",
+        "teacher": "Amanda Klyftig"
     },
     {
         "id": 5,
         "title": "Blockchain Beginner",
+        "courseImg": "",
         "courseId": 2405,
         "startDate": "1st August",
         "duration": "4 weeks",
         "shortDescription": "Unlock the potential of blockchain technology with our Beginner course. Understand fundamentals, decentralized systems, and cryptocurrency principles.",
         "longDescription": "Unlock the potential of blockchain technology with our Beginner course. Understand the fundamentals of blockchain, explore decentralized systems, and grasp the principles behind cryptocurrencies. Whether you're curious about the technology's impact on various industries or planning to enter the blockchain space, this course provides the essential groundwork.",
         "studyStructure": "Distance",
-        "rating": "",
-        "teacher": ""
+        "rating": "3",
+        "teacher": "Amanda Klyftig"
     },
     {
         "id": 6,
         "title": "Systemdevelopment",
+        "courseImg": "",
         "courseId": 2406,
         "startDate": "1st September",
         "duration": "8 weeks",
         "shortDescription": "Explore system development in our comprehensive course. Covering theoretical foundations and practical implementation for the entire development lifecycle.",
         "longDescription": "Explore the intricacies of system development in our comprehensive course. Covering both theoretical foundations and practical implementation, this program guides you through the entire development lifecycle. From requirements analysis to design, coding, testing, and maintenance, gain the skills needed to excel in system development projects.",
         "studyStructure": "On-site",
-        "rating": "",
-        "teacher": ""
+        "rating": "4",
+        "teacher": "Geniet Självlärd"
     },
     {
         "id": 7,
         "title": "Microsoft Office",
+        "courseImg": "",
         "courseId": 2407,
         "startDate": "Anytime",
         "duration": "4 weeks",
         "shortDescription": "Master essential workplace tools with our Microsoft Office course. Boost proficiency in Word, Excel, PowerPoint, and more for efficient document creation and data analysis.",
         "longDescription": "Master the essential tools of the modern workplace with our Microsoft Office course. Whether you're a professional looking to enhance productivity or a student preparing for future career demands, this course covers the ins and outs of Microsoft Word, Excel, PowerPoint, and more. Boost your proficiency in creating documents, analyzing data, and delivering compelling presentations.",
         "studyStructure": "Pre recorded",
-        "rating": "",
-        "teacher": ""
+        "rating": "5",
+        "teacher": "Geniet Självlärd"
     },
     {
         "id": 8,
         "title": "Cyber Security Basics",
+        "courseImg": "",
         "courseId": 2408,
         "startDate": "1st September",
         "duration": "4 weeks",
         "shortDescription": "Safeguard your digital world with our Cyber Security Basics course. Learn fundamental cybersecurity concepts, threat detection, and risk management. Ideal for online safety in an interconnected world.",
         "longDescription": "Safeguard your digital world with our Cyber Security Basics course. Understand the fundamentals of cybersecurity, including threat detection, risk management, and best practices for securing information. Ideal for beginners, this course equips you with essential knowledge to protect yourself and others from online threats in an increasingly interconnected world.",
         "studyStructure": "Pre recorded",
-        "rating": "",
-        "teacher": ""
+        "rating": "5",
+        "teacher": "Geniet Självlärd"
     }
   ],
   "courseStudents": [

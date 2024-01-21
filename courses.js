@@ -10,8 +10,12 @@ async function listCourses(){
         console.log(course);
         courseList.innerHTML += `
         <div>
+        <div></div>
         <h4>${course.title}</h4>
-        <h6>${course.startDate}</h6>
+        <span>${course.courseId}</span>
+        <span>${course.duration}</span>
+        <span>${course.studyStructure}</span>
+        <span>${course.startDate}</span>
         </div>
         `;
     });

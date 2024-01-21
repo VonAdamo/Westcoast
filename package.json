@@ -1,7 +1,6 @@
 {
   "name": "hemuppgift1",
   "version": "1.0.0",
-  "description": "",
   "main": "courses.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jason-server": "^3.0.0",
     "json-server": "^1.0.0-alpha.21"
-  }
+  },
+  "description": ""
 }

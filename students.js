@@ -1,5 +1,6 @@
 const addStudentButton = document.querySelector("#addStudentButton");
-const studentForm = document.querySelector("#addStudent");
+const studentForm = document.querySelector("#addStudent"); // Hämtar in datan #addStudent           ##
+                                                        // formuläret och sparar i "studentForm"    ##
 
 const initApp = async() => {
     console.log("App startat");
@@ -8,8 +9,9 @@ const initApp = async() => {
 const addNewStudentHandler = async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(studentForm);
-    const data = Object.fromEntries(formData.entries());
+    const formData = new FormData(studentForm); // Hämtar datan "studentForm" och kör den genom FormData för att ska key/value pairs
+    const data = Object.fromEntries(formData.entries()); // Hämtar alla entries (key/value pairs) från "formData" och gör om dom till object
+                                                        // och sparar som data
     console.log(data);
 
     const addedStudent = await addNewStudent(data);

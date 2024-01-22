@@ -23,26 +23,39 @@
         <div>
             <h1 class="page-title">Sign up</h1>
                 <form id="addStudent">
-                    <div class="form-control">
+                    <div class="student-form">
                         <label for="firstName"></label>
                         <input type="text" name="firstName" id="firstName" placeholder="First Name" />
                     </div>
-                    <div class="form-control">
+                    <div class="student-form">
                         <label for="lastName"></label>
                         <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
                     </div>
-                    <div class="form-control">
+                    <div class="student-form">
                         <label for="adress"></label>
                         <input type="text" name="adress" id="adress" placeholder="Adress" />
                     </div>
-                    <div class="form-control">
+                    <div class="student-form">
                         <label for="email"></label>
                         <input type="text"name="email"id="email"placeholder="E-mail" />
                     </div>
-                    <div class="form-control">
+                    <div class="student-form">
                         <label for="phone"></label>
                         <input type="text" name="phone" id="phone" placeholder="Phone number" />
-                    </div>
+                    </div><br>
+                    <div class="student-form">
+                        <label for="title">Pick a course:</label><br>
+                        <select id="course" name="title" id="title">
+                        <option value="JavaScript Beginner">JavaScript Beginner</option>
+                        <option value="JavaScript Advanced">JavaScript Advanced</option>
+                        <option value="HTML/CSS Beginner">HTML/CSS Beginner</option>
+                        <option value="HTML/CSS Advanced">HTML/CSS Advanced</option>
+                        <option value="Blockchain Beginner">Blockchain Beginner</option>
+                        <option value="Systemdevelopment">Systemdevelopment</option>
+                        <option value="Microsoft Office">Microsoft Office</option>
+                        <option value="Cyber Security Basics">Cyber Security Basics</option>
+                        </select>
+                    </div><br>
                     <div class="form-control">
                     <button type="submit" class="btn" id="addStudentButton">Sign up</button>
                 </div>

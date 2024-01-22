@@ -1,0 +1,40 @@
+body {
+    background-color: burlywood;
+}
+
+main {
+    display: flex;
+}
+
+header {
+
+    nav {
+
+    }
+    
+    ul {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    li {
+        padding: 2rem;
+    }
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.course-cards {
+
+}
+#courses {
+    //border: 2px solid black;
+    padding: 2rem;
+}

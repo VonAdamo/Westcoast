@@ -10,7 +10,7 @@ async function listCourses(){
         console.log(course);
         courseList.innerHTML += `
         <div>
-        <div><img src="${course.courseImg}" alt="" width="1000px"></div>
+        <div><img src="${course.courseImg}" alt="" width="700px"></div>
         <h4>${course.title}</h4>
         <span>${course.courseId}</span>
         <span>${course.duration}</span>
@@ -20,6 +20,7 @@ async function listCourses(){
         `;
     });
 }
+courseList.className = "course-list";
 
 async function fetchCourses(){
     try {

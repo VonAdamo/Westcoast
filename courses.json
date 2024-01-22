@@ -107,22 +107,14 @@
   ],
   "students": [
     {
-      "firstName": "asd",
-      "lastName": "ad",
-      "adress": "asd",
-      "email": "tur@tur.se",
-      "phone": "0761743066",
-      "title": "JavaScript Beginner",
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "kyrkbacken",
+      "email": "adam@adam.se",
+      "phone": "0000-123456",
+      "title": "Blockchain Beginner",
+      "studyStructure": "Distance",
       "id": 1
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "adress": "",
-      "email": "",
-      "phone": "",
-      "title": "JavaScript Beginner",
-      "id": 2
     },
     {
       "firstName": "awd",
@@ -130,17 +122,9 @@
       "adress": "asd",
       "email": "asd",
       "phone": "asd",
-      "title": "Microsoft Office",
-      "id": 3
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "adress": "",
-      "email": "",
-      "phone": "",
-      "title": "JavaScript Beginner",
-      "id": 4
+      "title": "JavaScript Advanced",
+      "studyStructure": "On-site",
+      "id": 2
     }
   ],
   "courseStudents": [

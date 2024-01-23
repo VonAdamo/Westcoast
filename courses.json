@@ -11,7 +11,8 @@
       "longDescription": "Dive into the world of web development with our JavaScript Beginner course. Perfect for those new to programming, this course covers the fundamentals of JavaScript, teaching you how to manipulate the behavior of web pages, handle user interactions, and begin your journey into dynamic and interactive web development.",
       "studyStructure": "Distance",
       "rating": "4",
-      "teacher": "August Snillesson"
+      "teacher": "August Snillesson",
+      "cost": ""
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
       "longDescription": "Elevate your JavaScript skills with our Advanced course. Explore complex concepts, asynchronous programming, and modern frameworks. Learn to build sophisticated web applications, optimize performance, and implement best practices. Whether you're a seasoned developer or advancing from our Beginner course, this program takes your JavaScript expertise to the next level.",
       "studyStructure": "On-site",
       "rating": "4",
-      "teacher": "August Snillesson"
+      "teacher": "August Snillesson",
+      "cost": ""
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
       "longDescription": "Start your web development journey with our HTML/CSS Beginner course. Master the basics of structuring web content with HTML and styling it using CSS. Gain hands-on experience creating visually appealing and responsive web pages. This course is your stepping stone into the exciting world of front-end development.",
       "studyStructure": "Distance",
       "rating": "3.5",
-      "teacher": "August Snillesson"
+      "teacher": "August Snillesson",
+      "cost": ""
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
       "longDescription": "Build upon your foundational skills with our HTML/CSS Advanced course. Delve into advanced styling techniques, responsive design, and cross-browser compatibility. Learn to create modern and user-friendly interfaces, and explore the latest trends in web design. Perfect for those looking to enhance their proficiency in front-end development.",
       "studyStructure": "On-site",
       "rating": "4.5",
-      "teacher": "Amanda Klyftig"
+      "teacher": "Amanda Klyftig",
+      "cost": ""
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
       "longDescription": "Unlock the potential of blockchain technology with our Beginner course. Understand the fundamentals of blockchain, explore decentralized systems, and grasp the principles behind cryptocurrencies. Whether you're curious about the technology's impact on various industries or planning to enter the blockchain space, this course provides the essential groundwork.",
       "studyStructure": "Distance",
       "rating": "3",
-      "teacher": "Amanda Klyftig"
+      "teacher": "Amanda Klyftig",
+      "cost": ""
     },
     {
       "id": 6,
@@ -76,7 +81,8 @@
       "longDescription": "Explore the intricacies of system development in our comprehensive course. Covering both theoretical foundations and practical implementation, this program guides you through the entire development lifecycle. From requirements analysis to design, coding, testing, and maintenance, gain the skills needed to excel in system development projects.",
       "studyStructure": "On-site",
       "rating": "4",
-      "teacher": "Geniet Självlärd"
+      "teacher": "Geniet Självlärd",
+      "cost": ""
     },
     {
       "id": 7,
@@ -89,7 +95,8 @@
       "longDescription": "Master the essential tools of the modern workplace with our Microsoft Office course. Whether you're a professional looking to enhance productivity or a student preparing for future career demands, this course covers the ins and outs of Microsoft Word, Excel, PowerPoint, and more. Boost your proficiency in creating documents, analyzing data, and delivering compelling presentations.",
       "studyStructure": "Pre recorded",
       "rating": "5",
-      "teacher": "Geniet Självlärd"
+      "teacher": "Geniet Självlärd",
+      "cost": ""
     },
     {
       "id": 8,
@@ -102,29 +109,20 @@
       "longDescription": "Safeguard your digital world with our Cyber Security Basics course. Understand the fundamentals of cybersecurity, including threat detection, risk management, and best practices for securing information. Ideal for beginners, this course equips you with essential knowledge to protect yourself and others from online threats in an increasingly interconnected world.",
       "studyStructure": "Pre recorded",
       "rating": "5",
-      "teacher": "Geniet Självlärd"
+      "teacher": "Geniet Självlärd",
+      "cost": ""
     }
   ],
   "students": [
     {
       "firstName": "adam",
       "lastName": "majava",
-      "adress": "kyrkbacken",
-      "email": "adam@adam.se",
-      "phone": "0000-123456",
-      "title": "Blockchain Beginner",
-      "studyStructure": "Distance",
-      "id": 1
-    },
-    {
-      "firstName": "awd",
-      "lastName": "asd",
       "adress": "asd",
-      "email": "asd",
-      "phone": "asd",
-      "title": "JavaScript Advanced",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
       "studyStructure": "On-site",
-      "id": 2
+      "id": 1
     }
   ],
   "courseStudents": [

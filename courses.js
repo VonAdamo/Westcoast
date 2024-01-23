@@ -16,6 +16,7 @@ async function listCourses(){
         <span>${course.duration}</span>
         <span>${course.studyStructure}</span>
         <span>${course.startDate}</span>
+        <button><a href="\html\add-student.html">Sign up</button>
         </div>
         `;
     });

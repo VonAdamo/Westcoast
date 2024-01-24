@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "JavaScript Beginner",
-      "courseImg": "/assets/course1.webp",
+      "courseImg": "./assets/course1.webp",
       "courseId": 2401,
       "startDate": "1st August",
       "duration": "4 weeks",
@@ -17,7 +17,7 @@
     {
       "id": 2,
       "title": "JavaScript Advanced",
-      "courseImg": "/assets/course2.webp",
+      "courseImg": "./assets/course2.webp",
       "courseId": 2402,
       "startDate": "1st September",
       "duration": "8 weeks",
@@ -31,7 +31,7 @@
     {
       "id": 3,
       "title": "HTML/CSS Beginner",
-      "courseImg": "/assets/course3.webp",
+      "courseImg": "./assets/course3.webp",
       "courseId": 2403,
       "startDate": "1st August",
       "duration": "4 weeks",
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "title": "HTML/CSS Advanced",
-      "courseImg": "/assets/course4.webp",
+      "courseImg": "./assets/course4.webp",
       "courseId": 2404,
       "startDate": "1st September",
       "duration": "8 weeks",
@@ -59,7 +59,7 @@
     {
       "id": 5,
       "title": "Blockchain Beginner",
-      "courseImg": "/assets/course5.webp",
+      "courseImg": "./assets/course5.webp",
       "courseId": 2405,
       "startDate": "1st August",
       "duration": "4 weeks",
@@ -73,7 +73,7 @@
     {
       "id": 6,
       "title": "Systemdevelopment",
-      "courseImg": "/assets/course6.webp",
+      "courseImg": "./assets/course6.webp",
       "courseId": 2406,
       "startDate": "1st September",
       "duration": "8 weeks",
@@ -87,7 +87,7 @@
     {
       "id": 7,
       "title": "Microsoft Office",
-      "courseImg": "/assets/course7.webp",
+      "courseImg": "./assets/course7.webp",
       "courseId": 2407,
       "startDate": "Anytime",
       "duration": "4 weeks",
@@ -101,7 +101,7 @@
     {
       "id": 8,
       "title": "Cyber Security Basics",
-      "courseImg": "/assets/course8.webp",
+      "courseImg": "./assets/course8.webp",
       "courseId": 2408,
       "startDate": "1st September",
       "duration": "4 weeks",
@@ -123,6 +123,46 @@
       "title": "JavaScript Beginner",
       "studyStructure": "On-site",
       "id": 1
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "adress": "",
+      "email": "",
+      "phone": "",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 2
+    },
+    {
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 3
+    },
+    {
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "adamgatan",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 4
+    },
+    {
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "adamgatan",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 5
     }
   ],
   "courseStudents": [

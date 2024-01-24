@@ -16,7 +16,7 @@ async function listCourses(){
         <span>${course.duration}</span>
         <span>${course.studyStructure}</span>
         <span>${course.startDate}</span>
-        <button><a href="\html\add-student.html">Sign up</button>
+        <button><a href="html/add-student.html">Sign up</a></button>
         </div>
         `;
     });
@@ -37,13 +37,5 @@ async function fetchCourses(){
         console.log(error)
     }
 }
-
-/* function saveHandler(e){
-    e.preventDefault();
-    console.log("Sparar");
-    const name = inputName.value
-    inputName.value = "Nisse";
-    form.addEventListener("sumbit", saveHandler);
-} */
 
 document.addEventListener("DOMContentLoaded", initPage);

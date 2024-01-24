@@ -1,28 +1,28 @@
-const addStudentButton = document.querySelector("#addCourseButton");
-const studentForm = document.querySelector("#addStudent"); // Hämtar in datan #addStudent           ##
+const addCourseButton = document.querySelector("#addCourseButton");
+const courseForm = document.querySelector("#addCourse"); // Hämtar in datan #addStudent           ##
                                                         // formuläret och sparar i "studentForm"    ##
 
 const initApp = async() => {
     console.log("App startat");
 };
 
-const addNewStudentHandler = async (e) => {
+const addNewCourseHandler = async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(studentForm); // Hämtar datan "studentForm" och kör den genom FormData för att ska key/value pairs
-    const data = Object.fromEntries(formData.entries()); // Hämtar alla entries (key/value pairs) från "formData" och gör om dom till object
+    const formInfo = new FormData(courseForm); // Hämtar datan "studentForm" och kör den genom FormData för att ska key/value pairs
+    const info = Object.fromEntries(formInfo.entries()); // Hämtar alla entries (key/value pairs) från "formData" och gör om dom till object
                                                         // och sparar som data
-    console.log(data);
+    console.log(info);
 
-    const addedStudent = await addNewStudent(data);
-    console.log(addedStudent);
-    await addNewStudent(students);
+    const addedCourse = await addNewCourse(info);
+    console.log(addedCourse);
+    //await addNewCourse(courses);
 };
 
 // Lätt till en ny användare...
-const addNewStudent = async(students) => {
+const addNewCourse = async(courses) => {
     // Lagra url till endpoint users...
-    const url = "http://localhost:3000/students"
+    const url = "http://localhost:3000/courses"
 
     try {
         // använda fetch api för att lagra "POST" en ny user
@@ -31,11 +31,11 @@ const addNewStudent = async(students) => {
         headers: {
             'Content-Type': "application/json" // Talar om vilken typ av data vi skickar
         },
-        body: JSON.stringify(students), // Data som vi skickar och konverteras från JS till JSON med stringify
+        body: JSON.stringify(courses), // Data som vi skickar och konverteras från JS till JSON med stringify
     });
     if (response.ok) {
-        const newStudent = await response.json();
-        return newStudent;
+        const newCourse = await response.json();
+        return newCourse;
       }else{
         console.log("Det gick inge vidare!!!")
       }
@@ -44,6 +44,6 @@ const addNewStudent = async(students) => {
     }
 };
 
-addStudentButton.addEventListener("click", addNewStudentHandler);
+addCourseButton.addEventListener("click", addNewCourseHandler);
 
 document.addEventListener("DOMContentLoaded", initApp);

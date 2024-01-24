@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/main.css" type="text">
     <script src="../students.js" defer></script>
     <title>Westcoast Education</title>
 </head>
@@ -21,7 +21,22 @@
     </header>
     <section>
         <div>
-            <h1 class="page-title">Sign up</h1>
+            <h2>Log in / Create account</h2>
+            <p>In order to book a course you have to log in or create an account</p>
+            <form id="addAccount">
+                <div class="login-form">
+                    <label for="email"></label>
+                    <input type="text" name="email" id="login-email" placeholder="E-mail" />
+                </div>
+                <div class="login-form">
+                    <label for="password"></label>
+                    <input type="text" name="password" id="password" placeholder="Password" />
+                </div><br>
+                <button type="submit" class="btn" id="login-button">Log in</button>
+            </form>
+        </div>
+        <div>
+            <h2 class="page-title">Sign up</h2>
                 <form id="addStudent">
                     <div class="student-form">
                         <label for="firstName"></label>

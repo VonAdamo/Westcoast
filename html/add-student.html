@@ -23,14 +23,14 @@
         <div>
             <h2>Log in / Create account</h2>
             <p>In order to book a course you have to log in or create an account</p>
-            <form id="addAccount">
+            <form id="addAccount" onsubmit="loginHandler(event)">
                 <div class="login-form">
                     <label for="email"></label>
                     <input type="text" name="email" id="login-email" placeholder="E-mail" />
                 </div>
                 <div class="login-form">
                     <label for="password"></label>
-                    <input type="text" name="password" id="password" placeholder="Password" />
+                    <input type="password" name="password" id="password" placeholder="Password" />
                 </div><br>
                 <button type="submit" class="btn" id="login-button">Log in</button>
             </form>

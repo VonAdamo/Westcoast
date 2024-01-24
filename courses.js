@@ -38,4 +38,5 @@ async function fetchCourses(){
     }
 }
 
+
 document.addEventListener("DOMContentLoaded", initPage);

@@ -9,7 +9,7 @@
       "duration": "4 weeks",
       "shortDescription": "Get started in web development with our JavaScript Beginner course. Learn the basics of JavaScript for dynamic web pages and user interactions.",
       "longDescription": "Dive into the world of web development with our JavaScript Beginner course. Perfect for those new to programming, this course covers the fundamentals of JavaScript, teaching you how to manipulate the behavior of web pages, handle user interactions, and begin your journey into dynamic and interactive web development.",
-      "studyStructure": "Distance",
+      "studyStructure": "Remote",
       "rating": "4",
       "teacher": "August Snillesson",
       "cost": ""
@@ -37,7 +37,7 @@
       "duration": "4 weeks",
       "shortDescription": "Start your web development journey with our HTML/CSS Beginner course. Master structuring web content and styling for visually appealing pages.",
       "longDescription": "Start your web development journey with our HTML/CSS Beginner course. Master the basics of structuring web content with HTML and styling it using CSS. Gain hands-on experience creating visually appealing and responsive web pages. This course is your stepping stone into the exciting world of front-end development.",
-      "studyStructure": "Distance",
+      "studyStructure": "Remote",
       "rating": "3.5",
       "teacher": "August Snillesson",
       "cost": ""
@@ -65,7 +65,7 @@
       "duration": "4 weeks",
       "shortDescription": "Unlock the potential of blockchain technology with our Beginner course. Understand fundamentals, decentralized systems, and cryptocurrency principles.",
       "longDescription": "Unlock the potential of blockchain technology with our Beginner course. Understand the fundamentals of blockchain, explore decentralized systems, and grasp the principles behind cryptocurrencies. Whether you're curious about the technology's impact on various industries or planning to enter the blockchain space, this course provides the essential groundwork.",
-      "studyStructure": "Distance",
+      "studyStructure": "Remote",
       "rating": "3",
       "teacher": "Amanda Klyftig",
       "cost": ""
@@ -123,46 +123,6 @@
       "title": "JavaScript Beginner",
       "studyStructure": "On-site",
       "id": 1
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "adress": "",
-      "email": "",
-      "phone": "",
-      "title": "JavaScript Beginner",
-      "studyStructure": "On-site",
-      "id": 2
-    },
-    {
-      "firstName": "adam",
-      "lastName": "majava",
-      "adress": "",
-      "email": "adam@adam.se",
-      "phone": "00123456",
-      "title": "JavaScript Beginner",
-      "studyStructure": "On-site",
-      "id": 3
-    },
-    {
-      "firstName": "adam",
-      "lastName": "majava",
-      "adress": "adamgatan",
-      "email": "adam@adam.se",
-      "phone": "00123456",
-      "title": "JavaScript Beginner",
-      "studyStructure": "On-site",
-      "id": 4
-    },
-    {
-      "firstName": "adam",
-      "lastName": "majava",
-      "adress": "adamgatan",
-      "email": "adam@adam.se",
-      "phone": "00123456",
-      "title": "JavaScript Beginner",
-      "studyStructure": "On-site",
-      "id": 5
     }
   ],
   "courseStudents": [

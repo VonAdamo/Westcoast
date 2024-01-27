@@ -123,6 +123,16 @@
       "title": "JavaScript Beginner",
       "studyStructure": "On-site",
       "id": 1
+    },
+    {
+      "firstName": "Milla",
+      "lastName": "Milla",
+      "adress": "Millagatan",
+      "email": "milla@milla",
+      "phone": "0700-000000",
+      "title": "Blockchain Beginner",
+      "studyStructure": "Distance",
+      "id": 2
     }
   ],
   "courseStudents": [

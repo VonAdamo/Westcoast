@@ -4,27 +4,70 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 
-header {
-
-    nav {
-
+nav {
+    h1 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
+}
     
-    ul {
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0;
+}
+li {
+
+    padding: 1rem;
+    font-family: 'Courier New';
+}
+
+.course-list {
+    padding: 1rem;
+}
+
+.course-cards {
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+#courses {
+    width: 70vw;
+    background-color: bisque;
+    border: 2px solid black;
+    img {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
+        height: auto;
+        border-radius: 15px;
+        border: 2px solid black;
     }
-    li {
-        padding: 2rem;
-        h1 {
-            padding: 0;
-            margin: 0;
-        }
+    h4 {
+        margin: 1rem;
+    }
+    span {
+        padding: 1rem;
+        padding-bottom: 2rem;
     }
 }
+
+#students {
+    
+    div {
+        border: 2px solid black;
+        margin: 1rem;
+        text-align: center;
+        padding: 0.4rem;
+    }
+}
+

@@ -15,6 +15,7 @@ header {
     ul {
         width: 100%;
         display: flex;
+        justify-content: center;
         list-style: none;
         border-top: 2px solid black;
         border-bottom: 2px solid black;
@@ -26,19 +27,4 @@ header {
             margin: 0;
         }
     }
-}
-
-.course-list {
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.course-cards {
-
-}
-#courses {
-    //border: 2px solid black;
-    padding: 2rem;
 }

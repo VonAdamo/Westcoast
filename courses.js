@@ -1,12 +1,15 @@
 const courseList = document.querySelector("#courses");
+const searchButton = document.querySelector("#searchButton");
+const studentlist = document.querySelector("#students");
 
 function initPage (){
     listCourses()
+    listStudents()
 }
 
 async function listCourses(){
-    const courses = await fetchCourses();
-    courses.forEach(course => {
+    const course = await fetchCourses();
+    course.forEach(course => {
         console.log(course);
         courseList.innerHTML += `
         <div>
@@ -21,7 +24,6 @@ async function listCourses(){
         `;
     });
 }
-courseList.className = "course-list";
 
 async function fetchCourses(){
     try {
@@ -38,5 +40,34 @@ async function fetchCourses(){
     }
 }
 
+async function listStudents(){
+    const students = await fetchStudents();
+    students.forEach(students => {
+        console.log(students);
+        studentlist.innerHTML += `
+        <span>
+        <h4>${students.title}</h4>
+        <span>${students.firstName}</span>
+        <span>${students.lastName}</span>
+        </span>
+        `;
+    });
+}
 
+async function fetchStudents(){
+    try {
+        const response = await fetch("http://localhost:3000/students");
+
+        if(response.ok){
+            const result = await response.json();
+            return result
+        } else {
+            console.log(response.status)
+        }
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+document.addEventListener("DOMContentLoaded", searchButton);
 document.addEventListener("DOMContentLoaded", initPage);

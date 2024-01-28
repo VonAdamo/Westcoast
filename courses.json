@@ -111,6 +111,28 @@
       "rating": "5",
       "teacher": "Geniet Självlärd",
       "cost": ""
+    },
+    {
+      "title": "Klippa o klistra",
+      "courseId": "2409",
+      "duration": "8 weeks",
+      "cost": "100$",
+      "id": 9
+    },
+    {
+      "title": "Life of Anders",
+      "courseId": "9999",
+      "duration": "83 days",
+      "cost": "100",
+      "id": 10
+    },
+    {
+      "title": "Life of Adam",
+      "courseId": "8888",
+      "duration": "8 weeks",
+      "cost": "100",
+      "studyStructure": "Distance",
+      "id": 11
     }
   ],
   "students": [
@@ -133,68 +155,106 @@
       "title": "Blockchain Beginner",
       "studyStructure": "Distance",
       "id": 2
-    }
-  ],
-  "courseStudents": [
-    {
-      "courseTitle": "JavaScript for Experts",
-      "students": [
-        {
-          "firstName": "Nisse",
-          "lastName": "Nilsson"
-        },
-        {
-          "firstName": "Nisse",
-          "lastName": "Nilsson"
-        },
-        {
-          "firstName": "Nisse",
-          "lastName": "Nilsson"
-        }
-      ]
     },
     {
-      "courseTitle": "TypeScript for Beginners",
-      "students": [
-        {
-          "firstName": "Nisse",
-          "lastName": "Nilsson"
-        },
-        {
-          "firstName": "Nisse",
-          "lastName": "Nilsson"
-        },
-        {
-          "firstName": "Nisse",
-          "lastName": "Nilsson"
-        }
-      ]
-    }
-  ],
-  "studentCourses": [
-    {
-      "firstName": "Jessica",
-      "lastName": "Olsson",
-      "courses": [
-        {
-          "courseTitle": "TypeScript for Beginners"
-        },
-        {
-          "courseTitle": "Solidity for Beginners"
-        }
-      ]
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "adamgatan 3",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 3
     },
     {
-      "firstName": "Jesper",
-      "lastName": "Olsson",
-      "courses": [
-        {
-          "courseTitle": "TypeScript for Beginners"
-        },
-        {
-          "courseTitle": "Solidity for Beginners"
-        }
-      ]
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "adamgatan 3",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 4
+    },
+    {
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "adamgatan",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 5
+    },
+    {
+      "firstName": "kitty",
+      "lastName": "majava",
+      "adress": "kitty",
+      "email": "kitty@kitty",
+      "phone": "07-000000",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 6
+    },
+    {
+      "firstName": "kitty",
+      "lastName": "majava",
+      "adress": "kitty",
+      "email": "kitty@kitty",
+      "phone": "07-000000",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 7
+    },
+    {
+      "firstName": "Milla",
+      "lastName": "Milla",
+      "adress": "millagatan",
+      "email": "milla@milla",
+      "phone": "0700000000",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 8
+    },
+    {
+      "firstName": "pixie",
+      "lastName": "pixie",
+      "adress": "pixiegatan",
+      "email": "pixie@pixie",
+      "phone": "0700000000",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 9
+    },
+    {
+      "firstName": "Milla",
+      "lastName": "Milla",
+      "adress": "",
+      "email": "milla@milla",
+      "phone": "0700000000",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 10
+    },
+    {
+      "firstName": "adam",
+      "lastName": "majava",
+      "adress": "adamgatan",
+      "email": "adam@adam.se",
+      "phone": "00123456",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 11
+    },
+    {
+      "firstName": "Anders",
+      "lastName": "Andersson",
+      "adress": "Andersgatan",
+      "email": "anders@anders",
+      "phone": "07-000000",
+      "title": "Cyber Security Basics",
+      "studyStructure": "On-site",
+      "id": 12
     }
   ]
 }

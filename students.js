@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const addStudentButton = document.querySelector("#addStudentButton");
     const studentForm = document.querySelector("#addStudent");
 
-    const initApp = async() => {
-        console.log("App startat");
-    };
-
     const addNewStudentHandler = async (e) => {
         e.preventDefault();
 
@@ -76,13 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const newStudent = await response.json();
             return newStudent;
         }else{
-            console.log("Det gick inge vidare!!!")
+            console.log("Failed")
         }
         } catch (error) {
         console.log(error)
         }
     };
-
+    
     const clearWarningMessages = () => {
         // Remove any existing warning messages
         const warningElement = document.getElementById('warning-message');
@@ -115,4 +111,4 @@ document.addEventListener('DOMContentLoaded', () => {
     addStudentButton.addEventListener("click", addNewStudentHandler);
     loginButton.addEventListener("click",loginHandler);
 });
-//document.addEventListener("DOMContentLoaded", initApp);
+

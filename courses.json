@@ -255,6 +255,36 @@
       "title": "Cyber Security Basics",
       "studyStructure": "On-site",
       "id": 12
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Johnsson",
+      "adress": "JonJohnssongatan",
+      "email": "",
+      "phone": "",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 13
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Majava",
+      "adress": "JonJohnssongatan",
+      "email": "adam_o89@hotmail.com",
+      "phone": "0708644454",
+      "title": "JavaScript Beginner",
+      "studyStructure": "On-site",
+      "id": 14
+    },
+    {
+      "firstName": "adam",
+      "lastName": "adam",
+      "adress": "adam",
+      "email": "adam@adam",
+      "phone": "0708644454",
+      "title": "Blockchain Beginner",
+      "studyStructure": "On-site",
+      "id": 15
     }
   ]
 }

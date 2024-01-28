@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hemuppgift 1</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <script src="/courses.js" defer></script>
+    <script type="module" src="/courses.js" defer></script>
 </head>
 <body>
     <header>
@@ -21,15 +21,21 @@
     </header>
     <main>
         <section class="student-list">
-            <form id="serach-field">
-                <div class="login-form">
+            <form id="search-field">
+                <div class="search-form">
                     <label for="search-bar"></label>
                     <input type="text" name="search-bar" id="search-bar" placeholder="Search course" />
                 </div>
-                <div class="student-form">
+                <div class="search-form">
                     <button type="submit" class="btn" id="searchButton">Search</button>
                 </div>
             </form>
+            </div>
+            <div class="results-container">
+                <ul class="results-list" id="list">
+
+                </ul>
+            </div>
             <div 
                 id="students" 
                 class="student-cards"> 
